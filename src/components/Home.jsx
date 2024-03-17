@@ -15,7 +15,7 @@ const Home = () => {
             I'm a Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            Junior Fullstack developer with the passion for web development
+            Junior Fullstack developer with the passion for Web development.
           </p>
 
           <div>
