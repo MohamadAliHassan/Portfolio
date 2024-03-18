@@ -14,23 +14,23 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
+          As a web developer, I am driven by my passion for coding and
+          problem-solving. With hands-on experience in both frontend and backend
+          development, I am eager to apply my skills to create impactful
+          solutions. I am dedicated to continuous learning and growth, and I am
+          excited about the opportunity to collaborate with talented teams to
+          build innovative projects that make a difference.
         </p>
 
         <br />
 
         <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          pariatur, vel similique sint, nobis aspernatur ut praesentium
-          explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-          quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-          Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-          magni quo! Eum cupiditate debitis labore.
+          As a developer, I am not only driven by solving technical challenges,
+          but also by creating user-friendly and scalable applications. I
+          believe in collaborating closely with other team members to understand
+          and meet business requirements and user needs. My passion for
+          continuous learning and exploring new technologies makes me a valuable
+          asset to your team.
         </p>
       </div>
     </div>

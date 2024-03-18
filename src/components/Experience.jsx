@@ -11,6 +11,10 @@ import NodeJS from "../assets/node.png";
 import TypeScript from "../assets/TypeScript.png";
 import mongodb from "../assets/mongoDB.png";
 import Vue from "../assets/VueJS.png";
+import MySQL from "../assets/MySql.png";
+import AWS from "../assets/AWS.png";
+import Firebase from "../assets/Firebase.png";
+import SaSS from "../assets/SaSS.png";
 
 const Experience = () => {
   const techs = [
@@ -79,6 +83,30 @@ const Experience = () => {
       src: Vue,
       title: "Vue Js",
       style: "shadow-green-500",
+    },
+    {
+      id: 12,
+      src: MySQL,
+      title: "MySQL",
+      style: "shadow-blue-800",
+    },
+    {
+      id: 13,
+      src: AWS,
+      title: "AWS",
+      style: "shadow-gray-600",
+    },
+    {
+      id: 14,
+      src: Firebase,
+      title: "Google Firebase",
+      style: "shadow-yellow-600",
+    },
+    {
+      id: 15,
+      src: SaSS,
+      title: "SaSS",
+      style: "shadow-pink-400",
     },
   ];
 

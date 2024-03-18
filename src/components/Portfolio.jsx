@@ -1,30 +1,45 @@
 import React from "react";
+import Ecommerce from "../assets/portfolio/Ecommerce.png";
+import Filmvisarna from "../assets/portfolio/Filmvisarna.png";
+import { Link } from "react-router-dom";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: "Dummy img",
+      src: Ecommerce,
+      demoLink: "",
+      codeLink: "https://github.com/MohamadAliHassan/Ecommerce",
     },
     {
       id: 2,
-      src: "Dummy img",
+      src: Filmvisarna,
+      demoLink: "https://filmvisarna-team1.nodehill.se/",
+      codeLink: "https://github.com/j-carlander/Filmvisarna",
     },
     {
       id: 3,
       src: "Dummy img",
+      demoLink: "",
+      codeLink: "",
     },
     {
       id: 4,
       src: "Dummy img",
+      demoLink: "",
+      codeLink: "",
     },
     {
       id: 5,
       src: "Dummy img",
+      demoLink: "",
+      codeLink: "",
     },
     {
       id: 6,
       src: "Dummy img",
+      demoLink: "",
+      codeLink: "",
     },
   ];
 
@@ -42,7 +57,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, demoLink, codeLink }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -50,12 +65,19 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Code
-                </button>
+                <a href={demoLink} target="_blank">
+                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                    Demo
+                  </button>
+                </a>
+                <a href={codeLink} target="_blank">
+                  <button
+                    onClick={codeLink}
+                    className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                  >
+                    Code
+                  </button>
+                </a>
               </div>
             </div>
           ))}
