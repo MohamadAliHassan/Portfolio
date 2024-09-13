@@ -14,23 +14,27 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-          As a web developer, I am driven by my passion for coding and
-          problem-solving. With hands-on experience in both frontend and backend
-          development, I am eager to apply my skills to create impactful
-          solutions. I am dedicated to continuous learning and growth, and I am
-          excited about the opportunity to collaborate with talented teams to
-          build innovative projects that make a difference.
+          As a fullstack JavaScript developer, I am driven by a deep passion for
+          coding and problem-solving. With extensive hands-on experience in both
+          frontend and backend development, I am committed to leveraging my
+          skills to create impactful solutions. My dedication to continuous
+          learning and professional growth propels me to seek opportunities for
+          collaboration with talented teams to build innovative projects that
+          truly make a difference.
         </p>
 
         <br />
 
         <p className="text-xl">
-          As a developer, I am not only driven by solving technical challenges,
-          but also by creating user-friendly and scalable applications. I
-          believe in collaborating closely with other team members to understand
-          and meet business requirements and user needs. My passion for
-          continuous learning and exploring new technologies makes me a valuable
-          asset to your team.
+          I highly value mentorship and constructive feedback as critical
+          components of my development as a developer. Teamwork is central to my
+          approach, fueling creativity and innovation. Although I am early in my
+          career, I have a steadfast commitment to delivering high-quality work.
+          I prioritize writing clean, efficient code that is both scalable and
+          maintainable. My ultimate goal is to make a positive impact through
+          technology, and I am excited about the chance to work on projects that
+          improve people's lives. Let's connect and create something
+          extraordinary together.
         </p>
       </div>
     </div>

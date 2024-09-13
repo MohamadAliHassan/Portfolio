@@ -1,7 +1,8 @@
 import React from "react";
 import Ecommerce from "../assets/portfolio/Ecommerce.png";
 import Filmvisarna from "../assets/portfolio/Filmvisarna.png";
-import { Link } from "react-router-dom";
+import NodeJS from "../assets/portfolio/NodeJS-API.jpg";
+import AutZ from "../assets/portfolio/AuthZ.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -19,25 +20,13 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      src: "Dummy img",
+      src: NodeJS,
       demoLink: "",
       codeLink: "",
     },
     {
       id: 4,
-      src: "Dummy img",
-      demoLink: "",
-      codeLink: "",
-    },
-    {
-      id: 5,
-      src: "Dummy img",
-      demoLink: "",
-      codeLink: "",
-    },
-    {
-      id: 6,
-      src: "Dummy img",
+      src: AutZ,
       demoLink: "",
       codeLink: "",
     },
@@ -56,7 +45,7 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work right here</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-8 px-10 sm:px-0">
           {portfolios.map(({ id, src, demoLink, codeLink }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img

@@ -13,7 +13,7 @@ import mongodb from "../assets/mongoDB.png";
 import Vue from "../assets/VueJS.png";
 import MySQL from "../assets/MySql.png";
 import AWS from "../assets/AWS.png";
-import Firebase from "../assets/Firebase.png";
+import NextJS from "../assets/nextjs.png";
 import SaSS from "../assets/SaSS.png";
 
 const Experience = () => {
@@ -98,9 +98,9 @@ const Experience = () => {
     },
     {
       id: 14,
-      src: Firebase,
-      title: "Google Firebase",
-      style: "shadow-yellow-600",
+      src: NextJS,
+      title: "Next JS",
+      style: "shadow-gray-400",
     },
     {
       id: 15,

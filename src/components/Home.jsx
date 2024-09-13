@@ -1,4 +1,3 @@
-import React from "react";
 import HeroImg from "../assets/portfolio/img-portfolio.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
@@ -15,7 +14,7 @@ const Home = () => {
             I am a Full stack Web developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            Junior Fullstack developer with the passion for Web development.
+            Fullstack developer with the passion for Web development.
           </p>
 
           <div>
